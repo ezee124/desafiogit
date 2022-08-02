@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?famili=Poppins:wght@200;400;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+}
+
+
+
+.header{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    display: flex;
+    background-color: rgb(29, 86, 242);
+    padding: 1rem 0rem;
+    margin: 0 0 0 0;
+    border-bottom: 1px solid black;
+    content: 0 100% 0 0;
+
+}
+
+
+
+.ul-header{
+    
+    display: flex;
+    width: 100%;
+    
+}
+
+.ul-header li{
+    list-style: none;
+    color: black;
+    
+    display: inline-block;
+    margin: 1rem 2rem;
+}
+
+.ul-header a{
+    font-size: 125%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0 20px;
+    
+}
+
+.ul-header a:hover{
+    background-color: rgb(119, 119, 124);
+    color: rgb(18, 32, 70);
+}
+
+
+
+.header-img{
+    
+    margin: 0 1000px 0 0;
+     width: 175px;
+
+}
+    
+
+.main-inicio{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background-color: rgb(119, 119, 124);
+    height: 800px;
+    padding: 0rem 10rem;
+}
+.div-ini{
+   align-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    display: flex;
+    height: 80%;
+    width: 30%;
+
+}
+
+.main-gal{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 400px 100px 400px 100px 400px;
+    grid-template-areas: 't t t'
+                         't1 t2 t3'
+                         'c c c'
+                         'c1 c2 c3'
+                         'pc pc pc'
+                         'pc1 pc2 pc3';
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(119, 119, 124);
+    height: 100%;
+    width: 100%;
+    padding: 0rem 10rem;
+
+}
+
+  .tele{
+    display: flex;
+    grid-area: t;
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+}
+
+  .tele1{
+    grid-area: 't1';
+    }
+  .tele2{
+    grid-area: 't2';
+    }
+  .tele3{
+    grid-area: 't3';
+    }
+
+.cel{
+    display: flex;
+    grid-area: c;
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+}
+
+  .cel1{
+    grid-area: 'c1';
+  }
+  .cel2{
+    grid-area: 'c2';
+  }
+  .cel2{
+    grid-area: 'c3';
+  }
+
+
+
+.compu{
+    display: flex;
+    grid-area: pc;
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+}
+
+   .pc1{
+    grid-area: 'pc1';
+   }
+   .pc2{
+    grid-area: 'pc2';
+   }
+   .pc3{
+    grid-area: 'pc3';
+   }
+
+   /*menu de sobre nosotros*/
+
+.main-sn{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 400px 400px;
+    grid-template-areas:'tit tit'
+                        'fotsn fotsn'
+                        'tex tex';
+    
+    
+    background-color: rgb(119, 119, 124);
+    height: 1000px;
+    width: 100%;
+    padding: 0rem 10rem;
+
+}
+
+.sobrenosotros{
+    display: flex;
+    
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+    
+}
+
+.imgsn{
+    grid-area: 'fotsn';
+}
+
+.main-cli{
+    display: flex;
+    background-color: rgb(119, 119, 124);
+    height: 800px;
+    padding: 0rem 10rem;
+
+}
+
+.main-con{
+    display: flex;
+    background-color: rgb(119, 119, 124);
+    height: 800px;
+    padding: 0rem 10rem;
+
+}
+
+.vid-ini{
+    height: 600px;
+    width: 600px;
+}
+
+
+
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px;
+    grid-template-areas: 'a1 a2 a3 a4'
+                         'a5 a6 a7 a8';
+    background-color: black;
+    height: 350px;
+
+    
+}
+
+.pfooter{
+    grid-area: 'a1';
+    display: flex;
+    font-size: 20px;
+    color: white;
+    justify-items: center;
+    align-items: center;
+}
+
+.divfooter{
+    grid-area: 'a5';
+    display: inline-block;
+    font-size: 10px;
+    color: white;
+}
