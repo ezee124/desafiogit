@@ -583,13 +583,10 @@ footer{
         width: auto;
         max-width: 80%;
         max-height: 70%;
-        transform:scale(10px)
+        
         
        }
 
-       .estiloimg :hover{
-        transform: translate(80px, 80px);
-       }
 
        /*menu sobre nosotros*/
 
