@@ -1,5 +1,6 @@
 
 
+
 @media only screen and (max-width: 600px ){
 
     /*inicio de pagina va en todas*/
@@ -9,11 +10,12 @@
         flex-direction:row ;
     justify-content: space-evenly;
     display: flex;
-    background-color:$color1;
     padding: 1rem 0rem;
     margin: 0 0 0 0;
+    content: 0 100% 0 0;  
+    background-color:$color1;
     border-bottom: 1px solid black;
-    content: 0 100% 0 0;
+    
     .ul-header{
     
         display: flex;
@@ -137,11 +139,12 @@
         flex-direction:row ;
     justify-content: space-evenly;
     display: flex;
-    background-color: $color1;
     padding: 1rem 0rem;
     margin: 0 0 0 0;
-    border-bottom: 1px solid black;
     content: 0 100% 0 0;
+    background-color: $color1;
+    border-bottom: 1px solid black;
+    
     .ul-header{
     
         display: flex;
