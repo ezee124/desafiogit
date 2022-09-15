@@ -294,6 +294,9 @@
     /*menu inicial*/
 
     .main-inicio{
+
+        
+       
         justify-content: space-around;
     align-items: center;
     display: flex;
@@ -358,18 +361,21 @@
         background-color: $color2;
         height: 1100px;
         width: 100%;
-        padding: 2rem 10rem;
+        padding: 0 10rem 2rem 10rem;
+        &-hoja{
+            background-color: whitesmoke;
+            
+            
+        }
         .padre1{
             display: flex;
             flex-direction: column;
-            margin: 0 0 40px 0;
+            margin: 30px 0 40px 0;
             h2{
                 text-align: center;
                 margin: 0 0 40px 0;    
         }
-        .p-tex{
-            font-size:20px ;
-        }
+        
         }  
         
         .padre2{
@@ -387,6 +393,7 @@
             flex-direction: row;
             align-items: center;
              justify-content: space-around;
+             
              div{
                 display: inline-block;
                 width: 40%;
@@ -400,8 +407,13 @@
                 max-width: 50%;
                 max-height: 70%;
                 margin: 0 30px 0 30px;
+                border: 1px solid black;
         
             }
+        }
+        .p-tex{
+            font-size:18px ;
+            padding: 0 20px 0 20px;
         }
         
     }
@@ -441,19 +453,32 @@
         background-color:$color2;
         height: 1200px;
         padding: 0rem 10rem;
-        flex-direction: column;
+        flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
-    &-div1{
-        background-color: rgba(29, 86, 242, 0.758);
+    &-div0{display: flex;
+        flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(29, 86, 242, 0.758);
         padding: 40px 40px;
         border-radius: 20px;
+
+    
+    &-div1{
+        padding: 10px;
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
+        
+       
+        
+
+        
         &-boton{
             padding: 30px 0 0 0 ;
             text-align: center;
         }
     }
+}
     }    
 }
