@@ -727,8 +727,8 @@ body {
   .main-con {
     display: flex;
     background-color: #d1d1d9;
-    height: 1200px;
-    padding: 0rem 10rem;
+    height: 100%;
+    padding: 5rem 10rem;
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center; }

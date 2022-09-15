@@ -451,8 +451,8 @@
     .main-con{
         display: flex;
         background-color:$color2;
-        height: 1200px;
-        padding: 0rem 10rem;
+        height: 100%;
+        padding: 5rem 10rem;
         flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
@@ -460,6 +460,7 @@
         flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
+
     background-color: rgba(29, 86, 242, 0.758);
         padding: 40px 40px;
         border-radius: 20px;
